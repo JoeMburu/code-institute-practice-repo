@@ -10,6 +10,7 @@ body {
     color: #3a3a3a;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -18,11 +19,13 @@ header {
     background-color: lightcoral;
 }
 
+/* Main */
 main {
     background-color: lightblue;
     flex: 1 0 auto;
 }
 
+/* Footer */
 footer {
     background-color: orange;
 }
