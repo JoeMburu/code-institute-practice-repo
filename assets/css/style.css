@@ -55,7 +55,8 @@ nav {
     padding: 1rem 1rem;    
     background-color: #fff;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;    
+    display: none;
+       
 }
 
 h1 {
@@ -82,6 +83,7 @@ a.active {
 main {
     background-color: lightblue;
     flex: 1 0 auto;
+    margin-top: 39px;
 }
 
 /* Footer */
@@ -89,3 +91,32 @@ footer {
     background-color: orange;
 }
 
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+   
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #click-button-icon {
+        display: none;
+    }
+
+    #menu {
+        display: flex;     
+        align-items: center; 
+    }
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;       
+    }
+
+    #menu li {
+        padding-left: 1.3rem;
+    }
+}
