@@ -27,25 +27,35 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 header a {
     text-decoration: none;
     color: inherit;
 }
 
+#click-button-icon {
+   font-size: 2rem;
+}
+#click-button:checked ~ nav {
+    display: block;
+}
+
+#click-button {
+    display: none;
+}
 nav {
     position: absolute;
     width: 100%;
     left: 0;
+    top: 100%;
     padding: 1rem 1rem;    
     background-color: #fff;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    
-    
-    
-    
-    
+    display: none;    
 }
 
 h1 {
