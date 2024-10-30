@@ -26,6 +26,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 
 /* Header */
 header {
@@ -84,7 +88,7 @@ a.active {
 
 /* Main */
 main {
-    background-color: lightblue;
+    /* background-color: lightblue;  */
     flex: 1 0 auto;
     margin-top: 53px;
 }
